@@ -11,6 +11,7 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
   let sum = a + b;
   let message = `The sum of ${a} and ${b} is ${sum}.`;
+  console.log(sum);
   console.log(message);
   let arr = [sum, message];
   return (arr);
@@ -31,11 +32,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
-
+  let product = (a * b);
+  let message2 = `The product of ${a} and ${b} is ${product}.`;
+  console.log(product);
+  console.log(message2);
+  let arr2 = [product, message2];
+  return (arr2);
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5, 9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
