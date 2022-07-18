@@ -89,9 +89,7 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
-  let saSum = (sum(sumArr));
-  let saMSG = (`${testArray} was passed in as an array of numbers, and ${saSum} is their sum`);
-  console.log(saSum, saMSG);
+
 }
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -111,7 +109,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  let maMSG = (`The numbers ${testArray} have a product of #######`);
+  console.log(maMSG);
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
